@@ -19,10 +19,6 @@ namespace email_sender
             InitializeComponent();
         }
 
-        private void textBox2_TextChanged(object sender, EventArgs e)
-        {
-
-        }
         private void Form1_Load(object sender, EventArgs e)
         {
             label6.Text = "Caution: Email providers may ban or terminate your \naccount if your account is seen as being used for \nspam.";
